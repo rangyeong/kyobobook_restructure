@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서사이트반응형</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header_in">
+                <div class="top_ad_bn">
+                    <p class="top_ad1">
+                        <img src="img/bookfund_231025_header.jpg" alt="">
+                    </p>
+                    <p class="top_ad2">
+                        <img src="img/nov_goods_header.jpg" alt="" >
+                    </p>
+                    <button class="top_ad_close">닫기</button>
+                </div>
+            </div>
+            <div class="top_menu">
+                <div class="fam_site">
+                    <p class="fam_ebook"><a href="">교보e북</a></p>
+                    <p class="fam_hot"><a href="">핫트랙스</a></p>
+                    <p class="fam_sam"><a href="">sam</a></p>
+                    <p class="fam_more"><a href="">브랜드 더보기<span>아이콘</span></a></p>
+                </div>
+                <div class="top_util">
+                    <p><a href="">회원가입</a></p>
+                    <p><a href="">로그인</a></p>
+                    <p><a href="">회원혜택<span>아이콘</span></a></p>
+                    <p><a href="">고객센터</a></p>
+                </div>
+            </div>
+            <div class="head">
+                <div class="top_cate_320"><a href="">상단카테고리</a></div>
+                <div class="logo"><a href="">KYOBO교보문고</a></div>
+                <div class="search_box">
+                    <div class="search_cate"><p><a href="">통합검색<span class="search_arrow"></span></a></p></div>
+                    <input type="text" style="border: transparent;" class="in_text" placeholder="송길 미래, 핵개인의 시대">
+                    <div class="icon_search"><a href="">검색하기</a></div>
+                </div>
+                <div class="head_icon">
+                    <p class="head_icon_search">검색하기</p>
+                    <p class="head_icon_cart"><a href="">장바구니</a></p>
+                    <p class="head_icon_profile"><a href="">회원프로필</a></p>
+                </div>
+            </div>
+            <div class="top_ngb">
+                <div class="top_cate"><a href="">상단카테고리</a></div>
+                <ul>
+                    <li><a href="">푸바오</a></li>
+                    <li><a href="">블프지원금</a></li>
+                    <li><a href="">베스트</a></li>
+                    <li><a href="">신상품</a></li>
+                    <li><a href="">이벤트</a></li>
+                    <li><a href="">사은품</a></li>
+                    <li><a href="">PICKS</a></li>
+                    <li><a href="">CASTing</a></li>
+                    <li><a href="">교보ONLY</a></li>
+                </ul>
+                <div class="top_ngb_sub hide">
+                    <p><a href="">할인혜택 · 출석체크<span>더보기</span></a></p>
+                    <p><a href="">블프지원금3030명!</a></p>
+                </div>
+            </div>
+        </header>
+
+        <main id="container">
+            <section class="main1">
+                <div class="m1_in">
+                    <div class="bread_crumb">
+                        <ul>
+                            <li class="bc_first"><a href="">베스트셀러</a></li>
+                            <li class="bc_middle"><a href="">온라인 베스트</a></li>
+                            <li class="bc_last last"><a href="">종합</a></li>
+                        </ul>
+                    </div>
+                    <h2 class="m1_title">베스트셀러</h2> 
+                    <div class="m1_menu">
+                        <ul class="m1_list">
+                            <li class="active"><a href="">주간 베스트</a></li>
+                            <li><a href="">지금 베스트</a></li>
+                            <li><a href="">어제 베스트</a></li>
+                            <li><a href="">특가 베스트</a></li>
+                            <li><a href="">북플 베스트</a></li>
+                            <li><a href="">신간 베스트</a></li>
+                            <li><a href="">스테디셀러</a></li>
+                            <li><a href="">월간 베스트</a></li>
+                            <li><a href="">역대 베스트</a></li>
+                            <li><a href="">선물 베스트</a></li>
+                            <li><a href="">저자 랭킹</a></li>
+                            <li><a href="">출판사 랭킹</a></li>
+                        </ul>
+                        <button>드롭</button>
+                    </div>
+                </div>
+            </section>
+            <div class="main_row">
+                <div class="main_left">
+                    <ul>
+                        <li><a href="">종합</a></li>
+                        <li><a href="">국내도서</a></li>
+                        <li><a href="">외국도서</a></li>
+                        <li><a href="">중고샵</a></li>
+                        <li><a href="">eBook</a></li>
+                        <li><a href="">웹소설/코믹</a></li>
+                        <li><a href="">CD/LP</a></li>
+                        <li><a href="">DVD/BD</a></li>
+                        <li><a href="">문구/GIFT</a></li>
+                        <li><a href="">티켓</a></li>
+                    </ul>
+                </div>
+                <div class="main_right">
+                    <section class="main2">
+                        <div class="m2_in">
+                            <div class="date">
+                            <h5 class="m2_title">종합</h5>
+                                <select name="year" id="year">
+                                    <option value="">2023</option>
+                                    <option value="">2024</option>
+                                    <option value="">2025</option>
+                                </select>
+                                <span>년</span>
+                                <select name="month" id="month">
+                                    <option value="">11</option>
+                                    <option value="">12</option>
+                                    <option value="">13</option>
+                                </select>
+                                <span>월</span>
+                                <select name="day" id="day">
+                                    <option value="">17</option>
+                                    <option value="">18</option>
+                                    <option value="">19</option>
+                                </select>
+                                <span>일</span>
+                            </div>
+                            <div class="filter">
+                                <select name="gender" id="gender">
+                                    <option value="male">남</option>
+                                    <option value="female">여</option>
+                                </select>
+                                <select name="age" id="age">
+                                    <option value="age_ten">10대</option>
+                                    <option value="age_twel">20대</option>
+                                    <option value="age_thir">30대</option>
+                                    <option value="age_four">40대</option>
+                                </select>
+                                <select name="sold_out" id="gender">
+                                    <option value="with_so">품절포함</option>
+                                    <option value="without_so">품절제외</option>
+                                </select>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="main3">
+                        <div class="m3_in">
+                            <p>최근 1주 동안 가장 많은 고객들이 구매한 국내도서 순위입니다.</p>
+                            <div class="pager">
+                                <ul>
+                                    <li class="active"><a href="">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li><a href="">4</a></li>
+                                    <li><a href="">5</a></li>
+                                    <li><a href="">6</a></li>
+                                    <li><a href="">7</a></li>
+                                    <li><a href="">...</a></li>
+                                    <li><a href="">10</a></li>
+                                </ul>
+                                <select name="veiw" id="veiw">
+                                    <option value="veiw_twel">20개씩 보기</option>
+                                    <option value="veiw_fif">50개씩 보기</option>
+                                </select>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="main4">
+                        <div class="m4_in">
+                            <ul>
+                                <li>
+                                    <div class="m4_item">
+                                        <p class="book_choice_top"></p>
+                                        <div class="m4_rank">
+                                            <p class="rank">1</p>
+                                            <p class="rank_change intac"></p>
+                                            <div class="rank_change up">
+                                                <p class="arrow_up"></p>
+                                                <p class="change_num">2</p>
+                                            </div>
+                                            <div class="rank_change down">
+                                                <p class="arrow_down"></p>
+                                                <p class="change_num"></p>
+                                            </div>
+                                        </div>
+                                        <div class="book_img"><a href=""><img src="img/book_img1.jpg" alt=""></a>
+                                        <p class="book_pre">
+                                            <span class="new_br"><a href="">새창보기 |</a> </span>
+                                            <span class="pre_br"><a href="">미리보기</a></span>
+                                        </p>
+                                        </div>
+                                        <div class="book_txt">
+                                            <p class="book_choice"></p>
+                                            <p class="book_bene_top">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_title"><a href="">
+                                                마흔에 읽는 쇼펜하우어</a></p>
+                                            <p class="book_author"><a href="">강용수 ·  유노북스  
+                                                · 2023.09.07</a></p>
+                                            <p class="book_price"><a href="">10% <span>15,300</span> 17,000원 850p</a></p>
+                                            <p class="book_summary"><a href="">마흔의 마음은 복잡하다. 그동안 수많은 시험을 치르고 자리 잡기 시작했지만, 한참 남은 인생이 기대...</a></p>
+                                            <p class="book_bene">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_hash">
+                                                <span>
+                                                    #아포리즘</span>
+                                                <span>#팩트폭행인생조언</span>
+                                                <span>#나이인문학</span>
+                                            </p>
+                                            <p class="book_review">
+                                                <span class="klo">9.67</span>
+                                                <span class="quo">도움돼요</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="order">
+                                        <ul class="order_info">
+                                            <li>새벽배송</li>
+                                            <li>지금 주문하면</li>
+                                            <li>내일 오전 7시 전</li>
+                                            <li>도착예정</li>
+                                        </ul>
+                                        <ul class="order_bt">
+                                            <li class="wish"><button>찜</button></li>
+                                            <li class="count_bt">
+                                                <button>-</button>
+                                                <span>1</span>
+                                                <button>+</button>
+                                            </li>
+                                            <li class="cart_bt"><button>장바구니</button></li>
+                                            <li class="buy_bt"><button>바로구매</button></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="m4_item">
+                                        <p class="book_choice_top"></p>
+                                        <div class="m4_rank">
+                                            <p class="rank">1</p>
+                                            <p class="rank_change intac"></p>
+                                            <div class="rank_change up">
+                                                <p class="arrow_up"></p>
+                                                <p class="change_num">2</p>
+                                            </div>
+                                            <div class="rank_change down">
+                                                <p class="arrow_down"></p>
+                                                <p class="change_num"></p>
+                                            </div>
+                                        </div>
+                                        <div class="book_img"><a href=""><img src="img/book_img2.jpg" alt=""></a>
+                                        <p class="book_pre">
+                                            <span class="new_br"><a href="">새창보기 |</a> </span>
+                                            <span class="pre_br"><a href="">미리보기</a></span>
+                                        </p>
+                                        </div>
+                                        <div class="book_txt">
+                                            <p class="book_choice"></p>
+                                            <p class="book_bene_top">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_title"><a href="">
+                                                마흔에 읽는 쇼펜하우어</a></p>
+                                            <p class="book_author"><a href="">강용수 ·  유노북스  
+                                                · 2023.09.07</a></p>
+                                            <p class="book_price"><a href="">10% <span>15,300</span> 17,000원 850p</a></p>
+                                            <p class="book_summary"><a href="">마흔의 마음은 복잡하다. 그동안 수많은 시험을 치르고 자리 잡기 시작했지만, 한참 남은 인생이 기대...</a></p>
+                                            <p class="book_bene">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_hash">
+                                                <span>
+                                                    #아포리즘</span>
+                                                <span>#팩트폭행인생조언</span>
+                                                <span>#나이인문학</span>
+                                            </p>
+                                            <p class="book_review">
+                                                <span class="klo">9.67</span>
+                                                <span class="quo">도움돼요</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="order">
+                                        <ul class="order_info">
+                                            <li>새벽배송</li>
+                                            <li>지금 주문하면</li>
+                                            <li>내일 오전 7시 전</li>
+                                            <li>도착예정</li>
+                                        </ul>
+                                        <ul class="order_bt">
+                                            <li class="wish"><button>찜</button></li>
+                                            <li class="count_bt">
+                                                <button>-</button>
+                                                <span>1</span>
+                                                <button>+</button>
+                                            </li>
+                                            <li class="cart_bt"><button>장바구니</button></li>
+                                            <li class="buy_bt"><button>바로구매</button></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="m4_item">
+                                        <p class="book_choice_top"></p>
+                                        <div class="m4_rank">
+                                            <p class="rank">1</p>
+                                            <p class="rank_change intac"></p>
+                                            <div class="rank_change up">
+                                                <p class="arrow_up"></p>
+                                                <p class="change_num">2</p>
+                                            </div>
+                                            <div class="rank_change down">
+                                                <p class="arrow_down"></p>
+                                                <p class="change_num"></p>
+                                            </div>
+                                        </div>
+                                        <div class="book_img"><a href=""><img src="img/book_img3.jpg" alt=""></a>
+                                        <p class="book_pre">
+                                            <span class="new_br"><a href="">새창보기 |</a> </span>
+                                            <span class="pre_br"><a href="">미리보기</a></span>
+                                        </p>
+                                        </div>
+                                        <div class="book_txt">
+                                            <p class="book_choice"></p>
+                                            <p class="book_bene_top">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_title"><a href="">
+                                                마흔에 읽는 쇼펜하우어</a></p>
+                                            <p class="book_author"><a href="">강용수 ·  유노북스  
+                                                · 2023.09.07</a></p>
+                                            <p class="book_price"><a href="">10% <span>15,300</span> 17,000원 850p</a></p>
+                                            <p class="book_summary"><a href="">마흔의 마음은 복잡하다. 그동안 수많은 시험을 치르고 자리 잡기 시작했지만, 한참 남은 인생이 기대...</a></p>
+                                            <p class="book_bene">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_hash">
+                                                <span>
+                                                    #아포리즘</span>
+                                                <span>#팩트폭행인생조언</span>
+                                                <span>#나이인문학</span>
+                                            </p>
+                                            <p class="book_review">
+                                                <span class="klo">9.67</span>
+                                                <span class="quo">도움돼요</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="order">
+                                        <ul class="order_info">
+                                            <li>새벽배송</li>
+                                            <li>지금 주문하면</li>
+                                            <li>내일 오전 7시 전</li>
+                                            <li>도착예정</li>
+                                        </ul>
+                                        <ul class="order_bt">
+                                            <li class="wish"><button>찜</button></li>
+                                            <li class="count_bt">
+                                                <button>-</button>
+                                                <span>1</span>
+                                                <button>+</button>
+                                            </li>
+                                            <li class="cart_bt"><button>장바구니</button></li>
+                                            <li class="buy_bt"><button>바로구매</button></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="m4_item">
+                                        <p class="book_choice_top"></p>
+                                        <div class="m4_rank">
+                                            <p class="rank">1</p>
+                                            <p class="rank_change intac"></p>
+                                            <div class="rank_change up">
+                                                <p class="arrow_up"></p>
+                                                <p class="change_num">2</p>
+                                            </div>
+                                            <div class="rank_change down">
+                                                <p class="arrow_down"></p>
+                                                <p class="change_num"></p>
+                                            </div>
+                                        </div>
+                                        <div class="book_img"><a href=""><img src="img/book_img4.jpg" alt=""></a>
+                                        <p class="book_pre">
+                                            <span class="new_br"><a href="">새창보기 |</a> </span>
+                                            <span class="pre_br"><a href="">미리보기</a></span>
+                                        </p>
+                                        </div>
+                                        <div class="book_txt">
+                                            <p class="book_choice"></p>
+                                            <p class="book_bene_top">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_title"><a href="">
+                                                마흔에 읽는 쇼펜하우어</a></p>
+                                            <p class="book_author"><a href="">강용수 ·  유노북스  
+                                                · 2023.09.07</a></p>
+                                            <p class="book_price"><a href="">10% <span>15,300</span> 17,000원 850p</a></p>
+                                            <p class="book_summary"><a href="">마흔의 마음은 복잡하다. 그동안 수많은 시험을 치르고 자리 잡기 시작했지만, 한참 남은 인생이 기대...</a></p>
+                                            <p class="book_bene">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_hash">
+                                                <span>
+                                                    #아포리즘</span>
+                                                <span>#팩트폭행인생조언</span>
+                                                <span>#나이인문학</span>
+                                            </p>
+                                            <p class="book_review">
+                                                <span class="klo">9.67</span>
+                                                <span class="quo">도움돼요</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="order">
+                                        <ul class="order_info">
+                                            <li>새벽배송</li>
+                                            <li>지금 주문하면</li>
+                                            <li>내일 오전 7시 전</li>
+                                            <li>도착예정</li>
+                                        </ul>
+                                        <ul class="order_bt">
+                                            <li class="wish"><button>찜</button></li>
+                                            <li class="count_bt">
+                                                <button>-</button>
+                                                <span>1</span>
+                                                <button>+</button>
+                                            </li>
+                                            <li class="cart_bt"><button>장바구니</button></li>
+                                            <li class="buy_bt"><button>바로구매</button></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="m4_item">
+                                        <p class="book_choice_top"></p>
+                                        <div class="m4_rank">
+                                            <p class="rank">1</p>
+                                            <p class="rank_change intac"></p>
+                                            <div class="rank_change up">
+                                                <p class="arrow_up"></p>
+                                                <p class="change_num">2</p>
+                                            </div>
+                                            <div class="rank_change down">
+                                                <p class="arrow_down"></p>
+                                                <p class="change_num"></p>
+                                            </div>
+                                        </div>
+                                        <div class="book_img"><a href=""><img src="img/book_img5.jpg" alt=""></a>
+                                        <p class="book_pre">
+                                            <span class="new_br"><a href="">새창보기 |</a> </span>
+                                            <span class="pre_br"><a href="">미리보기</a></span>
+                                        </p>
+                                        </div>
+                                        <div class="book_txt">
+                                            <p class="book_choice"></p>
+                                            <p class="book_bene_top">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_title"><a href="">
+                                                마흔에 읽는 쇼펜하우어</a></p>
+                                            <p class="book_author"><a href="">강용수 ·  유노북스  
+                                                · 2023.09.07</a></p>
+                                            <p class="book_price"><a href="">10% <span>15,300</span> 17,000원 850p</a></p>
+                                            <p class="book_summary"><a href="">마흔의 마음은 복잡하다. 그동안 수많은 시험을 치르고 자리 잡기 시작했지만, 한참 남은 인생이 기대...</a></p>
+                                            <p class="book_bene">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_hash">
+                                                <span>
+                                                    #아포리즘</span>
+                                                <span>#팩트폭행인생조언</span>
+                                                <span>#나이인문학</span>
+                                            </p>
+                                            <p class="book_review">
+                                                <span class="klo">9.67</span>
+                                                <span class="quo">도움돼요</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="order">
+                                        <ul class="order_info">
+                                            <li>새벽배송</li>
+                                            <li>지금 주문하면</li>
+                                            <li>내일 오전 7시 전</li>
+                                            <li>도착예정</li>
+                                        </ul>
+                                        <ul class="order_bt">
+                                            <li class="wish"><button>찜</button></li>
+                                            <li class="count_bt">
+                                                <button>-</button>
+                                                <span>1</span>
+                                                <button>+</button>
+                                            </li>
+                                            <li class="cart_bt"><button>장바구니</button></li>
+                                            <li class="buy_bt"><button>바로구매</button></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="m4_item">
+                                        <p class="book_choice_top"></p>
+                                        <div class="m4_rank">
+                                            <p class="rank">1</p>
+                                            <p class="rank_change intac"></p>
+                                            <div class="rank_change up">
+                                                <p class="arrow_up"></p>
+                                                <p class="change_num">2</p>
+                                            </div>
+                                            <div class="rank_change down">
+                                                <p class="arrow_down"></p>
+                                                <p class="change_num"></p>
+                                            </div>
+                                        </div>
+                                        <div class="book_img"><a href=""><img src="img/book_img6.jpg" alt=""></a>
+                                        <p class="book_pre">
+                                            <span class="new_br"><a href="">새창보기 |</a> </span>
+                                            <span class="pre_br"><a href="">미리보기</a></span>
+                                        </p>
+                                        </div>
+                                        <div class="book_txt">
+                                            <p class="book_choice"></p>
+                                            <p class="book_bene_top">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_title"><a href="">
+                                                마흔에 읽는 쇼펜하우어</a></p>
+                                            <p class="book_author"><a href="">강용수 ·  유노북스  
+                                                · 2023.09.07</a></p>
+                                            <p class="book_price"><a href="">10% <span>15,300</span> 17,000원 850p</a></p>
+                                            <p class="book_summary"><a href="">마흔의 마음은 복잡하다. 그동안 수많은 시험을 치르고 자리 잡기 시작했지만, 한참 남은 인생이 기대...</a></p>
+                                            <p class="book_bene">
+                                                <span>오늘의 선택</span>
+                                                <span>사은품</span>
+                                                <span>소득공제</span>
+                                            </p>
+                                            <p class="book_hash">
+                                                <span>
+                                                    #아포리즘</span>
+                                                <span>#팩트폭행인생조언</span>
+                                                <span>#나이인문학</span>
+                                            </p>
+                                            <p class="book_review">
+                                                <span class="klo">9.67</span>
+                                                <span class="quo">도움돼요</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="order">
+                                        <ul class="order_info">
+                                            <li>새벽배송</li>
+                                            <li>지금 주문하면</li>
+                                            <li>내일 오전 7시 전</li>
+                                            <li>도착예정</li>
+                                        </ul>
+                                        <ul class="order_bt">
+                                            <li class="wish"><button>찜</button></li>
+                                            <li class="count_bt">
+                                                <button>-</button>
+                                                <span>1</span>
+                                                <button>+</button>
+                                            </li>
+                                            <li class="cart_bt"><button>장바구니</button></li>
+                                            <li class="buy_bt"><button>바로구매</button></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                
+                        </div>
+                    </section>
+                    <section class="m_last">
+                        <div class="pager">
+                            <ul>
+                                <li class="active"><a href="">1</a></li>
+                                <li><a href="">2</a></li>
+                                <li><a href="">3</a></li>
+                                <li><a href="">4</a></li>
+                                <li><a href="">5</a></li>
+                                <li><a href="">6</a></li>
+                                <li><a href="">7</a></li>
+                                <li><a href="">...</a></li>
+                                <li><a href="">10</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="foot_top">
+                <div class="f_noti1">
+                    <h6>공지사항</h6>
+                    <p><a href="">교보문고 개인정보 처리방침 변경 안내 (9/8)
+                    </a></p>
+                </div>
+                <div class="f_noti2">
+                    <h6>당첨자발표</h6>
+                    <p><a href="">[비즈니스]<세상에서 가장 긴 행복 탐구 보고서> 출간 기념 이벤트 당첨자 발표
+                    </a></p>
+                </div>
+            </div>
+            <div class="foot_middle">
+                <div class="f_mark">
+                    <div class="f_logo">KYOBO교보문고</div>
+                    <div class="f_sns_icon">
+                        <p class="youtube"><a href="">유튜브</a></p>
+                        <p class="facebook"><a href="">페북</a></p>
+                        <p class="insta"><a href="">인스타</a></p>
+                    </div>
+                </div>
+                <ul class="f_menu1">
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">개인정보처리방침</a></li>
+                    <li><a href="">청소년보호정책</a></li>
+                </ul>
+                <ul class="f_menu2">
+                    <li><a href="">대량주문안내</a></li>
+                    <li><a href="">협력사여러분</a></li>
+                    <li><a href="">채용정보</a></li>
+                    <li><a href="">광고소개</a></li>
+                </ul>
+                <div class="f_info">
+                    <ul>
+                        <li>대표이사 : 안병현, 김상훈</li>
+                        <li>서울특별시 종로구 종로 1</li>
+                        <li>사업자등록번호 : 102-81-11670</li>
+                    </ul>
+                    <ul>
+                        <li>대표전화 : 1544-1900(발신자 부담전화)</li>
+                        <li>FAX : 0502-987-5711(지역번호 공통)</li>
+                        <li>서울특별시 통신판매업신고번호 : 제 653호</li>
+                        <li><button>사업자정보확인</button></li>
+                    </ul>
+                    <p>© KYOBO BOOK CENTRE</p>
+                </div>
+                <div class="f_noti">
+                    <ul>
+                        <li>토스페이먼츠 구매안전서비스</li>
+                        <li><button>서비스 가입 확인</button></li>
+                        <li>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 토스페이먼츠의 구매안전서비스를 이용하실 수 있습니다.</li>
+                    </ul>
+                    <ul>
+                        <li>isms마크</li>
+                    </ul>
+                    <ul>
+                        <li>정보보호관리체계</li>
+                        <li>ISMS인증획득</li>
+                    </ul>
+                    <ul>
+                        <li>[인증범위] 온라인 교보문고 서비스 운영</li>
+                        <li>[유효기간] 2020.11.04 ~ 2023.11.03</li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
